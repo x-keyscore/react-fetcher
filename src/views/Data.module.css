@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 32px;
+}
+
+.field {
+    min-width: calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.field-label {
+    color: var(--secondary);
+    font-size: 1.1rem;
+}
+
+.field-value {
+    color: var(--text);
+}
+
+.field-picture {
+    max-width: 50px;
+}
